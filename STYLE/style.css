@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header img{
+    margin: 10px 5px;
+}
+button{
+    margin-top: 40px;
+    width: 500px !important;
+    height: 50px;
+}
+textarea{
+    resize: none; /* Deixa tamanho do textarea fixo */
+    width:500px !important;
+    
+    
+}
+
+h1, footer{
+    text-align: center;
+    
+}
+.container{
+
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+footer{
+    margin-top: 20px;
+}
+
+strong{
+    font-size: 25px;
+    padding-bottom: 25px !important;
+}

@@ -1,0 +1,33 @@
+Instruções (Leia tudo com bastante atenção)
+
+1. Você deverá recriar o layout apresentado, usando HTML e CSS. 
+
+2. Toda a parte lógica do sistema deverá ser criada com Javascript.
+
+3. O local onde a frase é informada deverá ser um campo do tipo textarea.
+
+4. O sistema deve identificar os palavrões baseado em uma lista de palavrões previamente definida por você
+
+5. Cada palavrão, independente do seu tamanho deve ser subsituído pela string *** no próprio textarea.
+
+6. Ao digitar ou colar uma frase no campo textarea, o total de caracteres deve ser atualizado no campo "X/Y caracteres" localizado abaixo do textarea.
+
+7. Não deve ser possível digitar mais que 255 caracteres.
+
+8. Caso seja colado um texto com mais de 255 caracteres, o mesmo deverá ser trucado.
+
+9. Ao clicar em "Limpar frase", as ações de limpeza devem ser realizadas, o botão deverá ser atualizado para a cor verde com o texto "Limpar outra frase", o textarea deverá ficar com a borda verde, e uma legenda deverá ser exibida mostrando o total de palavrões removidos. 
+
+10. Sempre que o botão estive verde, ao clicar nele a página deverá ser recarregada.
+
+11. Se a frase não tiver nenhum palavrão, deverá ser exibido um alert javascript com a frase: "Sua frase já está limpinha ;)"
+
+
+O projeto Compactado em ZIP ou RAR, ou o link para o repositório no github deverá ser enviado para o e-mail: nucleodevunime@gmail.com até o dia 31/12/2021 às 23:59h
+
+Importante: 
+
+1. Mesmo que não consiga concluir 100% do projeto, envie o ele assim mesmo para análise.
+2. Se você não tiver nenhum domínio sobre ferramentas web, pode fazer em modo console em C, C++ ou outra linguagem, desde que a parte lógica apresentada acima seja construída e apresentada no console.
+
+texto.replace(/Chingamento/gi|/Chingamento/gi,***);
